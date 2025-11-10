@@ -11,6 +11,7 @@ namespace StarterAssets
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
+		public bool shoot;
 		public bool sprint;
 
 		[Header("Movement Settings")]
@@ -30,11 +31,17 @@ namespace StarterAssets
 
 		public void OnLook(InputValue value)
 		{
-			if(cursorInputForLook)
+			if (cursorInputForLook)
 			{
 				LookInput(value.Get<Vector2>());
 			}
 		}
+
+		public void OnShoot(InputValue value)
+		{
+			shoot = value.isPressed;
+		}
+
 
 		public void OnJump(InputValue value)
 		{
@@ -53,7 +60,7 @@ namespace StarterAssets
 		public void MoveInput(Vector2 newMoveDirection)
 		{
 			move = newMoveDirection;
-		} 
+		}
 
 		public void LookInput(Vector2 newLookDirection)
 		{
@@ -79,11 +86,11 @@ namespace StarterAssets
 
 		private void SetCursorState(bool newState)
 		{
-			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
+			//Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
 
 #endif
 
 	}
-	
+
 }
