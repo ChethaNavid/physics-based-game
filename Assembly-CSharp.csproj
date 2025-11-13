@@ -65,15 +65,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Example\Scripts\PointsAssignExample.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\RopeMesh.cs" />
+    <Compile Include="Assets\Script\BallController.cs" />
     <Compile Include="Assets\Script\TennisNet.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\ReadmeBehaviour.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Example\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Mini Army Tent Model\SCRIPTS\rorateslow.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\Script\TennisBallController.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\Rope.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\RopeWindEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GogoGaga\OptimizedRopesAndCables\Third-Party Notices.txt" />
     <None Include="Assets\Survivalist\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\Survivalist\StarterAssets\license.txt" />
     <None Include="Assets\Mini Army Tent Model\ReadMe.txt" />

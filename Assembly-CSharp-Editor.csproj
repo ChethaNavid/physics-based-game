@@ -71,6 +71,7 @@
     <Compile Include="Assets\Survivalist\StarterAssets\Editor\PackageChecker\PackageChecker.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\Editor\ReadmeHierarchy.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
+    <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\Editor\RopeEditor.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\Editor\ScriptingDefineUtils.cs" />
   </ItemGroup>
   <ItemGroup>
