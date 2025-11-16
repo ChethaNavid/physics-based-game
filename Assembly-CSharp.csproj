@@ -69,8 +69,8 @@
     <Compile Include="Assets\Mini Army Tent Model\SCRIPTS\rorateslow.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Script\TennisBallController.cs" />
     <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\Rope.cs" />
+    <Compile Include="Assets\Script\TennisBallController.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\RopeWindEffect.cs" />
   </ItemGroup>
