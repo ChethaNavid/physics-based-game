@@ -1,0 +1,101 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "db594ad2-04cc-4927-b19f-66de525f5d9d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "edac3910-f9a6-4d17-86c2-01aaa6ef5007",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "52491f02-0d3c-4b0f-b552-7e55acfbcb43",
+                    "path": "WASD",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Look",
+            "id": "35a7b511-1e19-498d-8852-7487d2af0f78",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "6f4a7d21-63f7-46e6-8e0e-c1ede5a061d4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "99f92d1f-c56d-401a-8e0e-3a1b3312bac1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36578c75-9b01-44a1-9aac-be35cca8026d",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Jump",
+            "id": "418a5442-d3dc-4298-995d-851dff300b2d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "cbfeeb9b-e4c9-4a14-a574-522eaea781ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "652dde49-b65a-405d-80be-dd47ab849e02",
+                    "path": "Space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
