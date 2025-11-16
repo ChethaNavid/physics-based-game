@@ -29,7 +29,7 @@ public class BallController : MonoBehaviour
     void Update()
     {
         // Fire the ball toward the target when pressing Space or clicking
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && target != null)
+        if ((Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0)) && target != null)
         {
             ShootAtTarget();
         }
